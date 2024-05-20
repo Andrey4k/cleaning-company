@@ -1,0 +1,17 @@
+{
+  "name": "mypack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "minify": "uglifyjs SmoothScroll.js --compress --mangle --output SmoothScroll.min.js"
+  },
+  "author": "AndrewPodliuk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
